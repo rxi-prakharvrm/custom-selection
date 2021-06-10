@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h2 {
+  padding-bottom: 20px;
+  padding: 20px 30px;
+}
+
+p {
+  padding: 30px;
+}
+
+.card-container {
+  height: 400px;
+  width: 90%;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 25%;
+  height: 300px;
+  text-align: center;
+  border: 1px solid gray;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.header1 {
+  background-color: rgb(119, 198, 251);
+  color: white;
+}
+
+.header2 {
+  background-color: black;
+  color: white;
+}
+
+.header3 {
+  background-color: green;
+  color: white;
+}
+
+.p2::selection {
+  color: white;
+  background-color: black;
+}
+
+.p3::selection {
+  color: white;
+  background-color: green;
+}
